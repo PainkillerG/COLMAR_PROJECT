@@ -278,11 +278,13 @@ h2.section-title.bot {
   line-height: 1.3rem;
 }
 .portion3-heading {
+  font-weight: bold;
   font-size: 1.5rem;
   color: #4f4f4f;
   padding-top: .5rem;
 }
-.portion3-mini-heading  {
+.portion3-sub-heading  {
+  text-transform:uppercase;
   font-size: 1.2rem;
   color: #4f4f4f;
   padding-top: .5rem;
