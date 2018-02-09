@@ -45,7 +45,8 @@ header {
 }
 .navigator li a:hover {
   color: #ffffff;
-  background-color: #989ae9;
+  background-color: #000080;
+  font-weight:bold;
   font-size: 1.1rem;
 }
 
@@ -136,7 +137,7 @@ header {
 }
 .portion1-text .portion1-button:hover {
   color: #ffffff;
-  background-color: #989ae9;
+  background-color: #000080;
   font-weight:bold;
   font-size: 1.1rem;
 }
@@ -251,9 +252,10 @@ h2.section-title.bot {
   transition: all 0.2s ease-out;
   }
 .like .read-more-link:hover {
-  color: #dddddd;
+  color: #ffffff;
   font-weight:bold;
-  background-color: #989ae9;
+  font-size: 1.1rem;
+  background-color: #000080;
 }
 .add-tops {
   margin-top: 0;
