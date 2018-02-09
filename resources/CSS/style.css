@@ -177,6 +177,9 @@ header {
   width: calc(60% + 3rem);
   margin-left: 1.5rem;
 }
+.portion h2{
+  font-weight: bold;
+}
 .portion-lock img {
   width: 60vw;
   height: auto;
@@ -276,7 +279,7 @@ h2.section-title.bot {
 .like .menu-heading {
   margin-top: 0;
 }
-.like h5, .like p {
+.like h3, .like p {
   margin-left: 2rem;
 }
 .like .read-more-link {
@@ -303,21 +306,25 @@ h2.section-title.bot {
 }
 .portion3 h2 {
   text-align: center;
+  font-weight:bold;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-right:2.5rem;
+  padding-left:2.5rem;
+  background-color: #eeeeee;
 }
 .portion3-flexbox{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+  background-color: #eeeeee;
+  }
 .portion3-block {
   width: 22.25rem;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 3px 9px rgba(0,0,0,.4);
 }
 .portion3-block img {
   height: 11.375rem;
@@ -331,7 +338,6 @@ h2.section-title.bot {
   padding-bottom: 1rem;
   line-height: 1.3rem;
 }
-
 .portion3-heading {
   font-weight: bold;
   font-size: 1.5rem;
@@ -344,6 +350,7 @@ h2.section-title.bot {
   color: #4f4f4f;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  margin-left: 1rem;
 }
 .main-title{
   text-align: center;
@@ -352,6 +359,7 @@ h2.section-title.bot {
   font-family: 'Roboto', sans-serif;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 .dismiss {
   border: none;
@@ -366,10 +374,9 @@ h2.section-title.bot {
 .portion3-block img {
   display: none;
 }
-.learn-describe h6, .learn-describe p {
+.learn-describe h4, .learn-describe p {
   display: none;
 }
-
 .portion3-heading {
   font-size: 1.5rem;
   color: #4f4f4f;
@@ -389,14 +396,14 @@ h2.section-title.bot {
   padding-right: 1rem;
   padding-left: 1rem;
   margin-bottom: .5rem;
-  box-shadow: none;
-}
+  box-shadow:none;
+  }
 .portion3 h2 {
   padding-top: 0;
   padding-bottom: 1rem;
+  margin-left: 1rem;
 }
 }
-
 @media only screen and (max-width:479px) {
   .portion-lock.text-below.dismiss {
   display: initial;
@@ -420,16 +427,25 @@ h2.section-title.bot {
 }
 }
 
+/*portion 4 */
+
+h3 {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+p {
+  margin-left: 1rem;
+}
 /*Footer*/
 
 .copyright {
   width: 100%;
   height: 4rem;
-  background-color: #dddddd;
   color: #7f7f7f;
   font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
+  margin-top: 1px solid #eeeeee;
 }
 .no-descripts{
   color: #7f7f7f;
@@ -442,7 +458,7 @@ h2.section-title.bot {
   text-align: right;
   text-decoration: none;
   margin-right: .8rem;
-  background-color: #dddddd;
+  /*background-color: #dddddd;*/
   }
   .social-media .term {
     transition: all .2s linear 0s;
