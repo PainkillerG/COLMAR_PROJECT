@@ -403,7 +403,13 @@ a {
 
 @media only screen and (max-width:479px) {
 .portion3 {
-  background-color: #FFFFFF;
+  background-color: white;
+}
+.section-title h2 {
+  background-color: White;
+}
+.portion3-flexbox{
+background-color: #ffffff;
 }
 .portion3-block img {
   display: none;
@@ -413,10 +419,12 @@ a {
 }
 .portion3-heading {
   font-size: 1.5rem;
-  color: #4f4f4f;
-  padding: 1rem 1rem;
-  background-color: #eeeeee;
+  color: #4F4F4F;
+  padding: 1.5rem 1rem;
+  background-color: #dddddd;
+  margin-bottom: .5rem;
 }
+
 .learn-describe {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -431,11 +439,13 @@ a {
   padding-left: 1rem;
   margin-bottom: .5rem;
   box-shadow:none;
+  background-color: #ffffff;
   }
 .portion3 h2 {
   padding-top: 0;
   padding-bottom: 1rem;
   margin-left: 1rem;
+  background-color: #ffffff;
 }
 }
 @media only screen and (max-width:479px) {
