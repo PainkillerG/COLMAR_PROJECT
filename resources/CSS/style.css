@@ -31,10 +31,10 @@ span{
   display: inline-block;
   font-weight: bold;
 }
-.navigator li {
+.navigation li {
   display: inline-block;
 }
-.navigator li a {
+.navigation li a {
   margin-right: 1rem;
   text-decoration: none;
   color: #7f7f7f;
@@ -42,7 +42,7 @@ span{
   transition-duration: 750ms;
   transition-timing-function: ease-in-out;
 }
-.navigator li a:hover {
+.navigation li a:hover {
   color: #ffffff;
   background-color: #000080;
   font-weight:bold;
@@ -50,10 +50,10 @@ span{
 }
 
 @media only screen and (min-width:480px) {
-  .mobile-navigator {
+  .mobile-navigation {
   display: none;
   }
-  .mobile-navigator ul{
+  .mobile-navigation ul{
   display: none;
   }
 }
@@ -87,7 +87,7 @@ span{
 /*Mosaic - Portion 1 ---*/
 .portion-mosaic {
   background-color: #dddddd;
-  width: 100%;
+  width: 100vw;
   display: relative;
   margin-top: 65px;
   display: flex;
@@ -141,11 +141,14 @@ span{
   font-size: 1.1rem;
 }
 
-@media only screen and(max-width:479px) {
+
+@media only screen and (max-width:479px){
 .portion-mosaic {
+  width:100vw;
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin: 0 0;
 }
 .portion-image {
   width: 100vw;
@@ -159,12 +162,15 @@ span{
   margin-left: 0;
   margin-right: 0;
 }
+.portion1-text{
+  text-align: left;
+  margin-left:0;
+}
 .portion1-text .portion1-button {
   margin-top: 1.8rem;
   margin-bottom: 2rem;
+  }
 }
-}
-
 /*Portion2*/
 
 .portion {
@@ -266,26 +272,38 @@ h2 .section-title .bot {
     width: 28.5rem;
 }
 
+@media only screen and (min-width:480px){
+.menu-item-photo-mobile {
+  display:none;
+}
+}
+
 @media only screen and (max-width:479px) {
   .portion-lock.text-below {
   display: none;
 }
 .portion2-menu-block {
-    width: initial;
-    height: initial;
+    width: auto;
+    height: auto;
     display: initial;
     padding-bottom: 1rem;
 }
-.menu-item-photo {
-  width: 26.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+.menu-item-photo-desktop {
+  display:none;
+}
+.menu-item-photo-mobile {
+  width: 90vw;
+  height:auto;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top:16px;
 }
 .like .menu-heading {
   margin-top: 0;
 }
 .like h3, .like p {
   margin-left: 2rem;
+  text-align: left;
 }
 .like .read-more-link {
   margin-left: 2rem;
