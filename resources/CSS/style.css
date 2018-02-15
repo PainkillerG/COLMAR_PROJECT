@@ -330,6 +330,7 @@ h2 .section-title .bot {
 }
 .like{
   text-align: left;
+  font-weight:bold;
 }
 .portion2-menu-block {
   text-align: center;
@@ -552,7 +553,16 @@ h3, p {
         padding-top: 1rem;
         padding-bottom: 1rem;
       }
+      .no-descripts{
+          margin-top: 1.5rem;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+      }
+      .copyright {
+      border: none;
+      }
       .social-media {
         display:none;
       }
+
     }
