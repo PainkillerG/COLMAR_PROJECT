@@ -216,10 +216,11 @@ font-weight: bold;
 }
 .section-title{
    color: #4f4f4f;
-   font-size: 2rem;
+   font-size: 2.5rem;
+   font-weight:bold;
    font-family: 'Roboto', sans-serif;
    margin-top: 2rem;
-   /*margin-bottom: 1.5rem;*/
+   margin-bottom: 1.5rem;
 }
 h2 .section-title .bot {
     margin-bottom: 0;
@@ -326,6 +327,9 @@ h2 .section-title .bot {
 .like .read-more-link {
   margin-left: 2rem;
   margin-right: 4rem;
+}
+.like{
+  text-align: left;
 }
 .portion2-menu-block {
   text-align: center;
@@ -541,4 +545,14 @@ h3, p {
     }
     .social-media:hover {
       color: #000080;
+    }
+    @media only screen and (max-width:479px) {
+      footer {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .social-media {
+        display:none;
+      }
     }
