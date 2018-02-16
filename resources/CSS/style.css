@@ -139,6 +139,7 @@ span{
 .portion1-text .portion1-button:hover {
   color: #ffffff;
   background-color: #000080;
+  text-transform: uppercase;
   font-weight:bold;
   font-size: 1.3rem;
 }
@@ -237,9 +238,7 @@ font-weight: bold;
   line-height: 1.5rem;
   font-family: 'Open Sans', sans-serif;
 }
-.portion1-button{
-  text-align: center;
-}
+
 /*Portion2 - column display*/
 
 div .portion2-aside {
@@ -253,7 +252,7 @@ div .portion2-aside {
   display: flex;
   padding-bottom: 1rem;
 }
-.menu-item-photo {
+.menu-item-photo-desktop{
   width: 35%;
   height:auto;
   margin-left: 1rem;
