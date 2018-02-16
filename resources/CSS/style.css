@@ -50,10 +50,10 @@ span{
 }
 
 @media only screen and (min-width:480px) {
-  .mobile-navigation {
+  .mobile-navigator {
   display: none;
   }
-  .mobile-navigation ul{
+  .mobile-navigator ul{
   display: none;
   }
 }
@@ -95,11 +95,11 @@ span{
   align-items: center;
 }
 .portion-image {
-  width: calc(60% + 24px);
+  width: 60%;
   display: inline;
 }
 .portion-image img {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -108,37 +108,39 @@ span{
 }
 .portion1-text {
   font-family: 'Roboto', sans-serif;
-  width: 23rem;
+  width: 40%;
   color: #4f4f4f;
 }
 .portion1-text h1 {
   font-size: 2.8rem;
   font-weight: 700;
-}
-.boldtext {
-  color: #989ae9;
+  margin-left:4rem;
 }
 .portion1-text p {
   font-size: 1.3rem;
-  margin-top: 1.5rem
+  margin-top: 1.5rem;
+  margin-left:4rem;
 }
 .portion1-text .portion1-button {
   padding: .5rem 0;
-  background-color: #7f7f7f;
+  background-color: #4f4f4f;
+  font-size: 1.3rem;
   display: inline-block;
   margin-top: 2rem;
-  width: 23rem;
+  margin-left:4rem;
+  width: 40%;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  transition: all .2s ease-out;
+  transition: all .2s ease-in;
   box-shadow: 0 3px 9px rgba(0,0,0,.4);
 }
+
 .portion1-text .portion1-button:hover {
   color: #ffffff;
   background-color: #000080;
   font-weight:bold;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 
@@ -151,12 +153,13 @@ span{
   margin-bottom: 1rem;
 }
 .portion-image {
-  width: 100vw;
+  width: 60vw;
   height: auto;
   margin-left: 0;
   margin-right: 0;
 }
 .portion-image img {
+  width:60%;
   height: 20.25rem;
   width: auto;
   margin-left: 0;
@@ -178,7 +181,7 @@ font-weight: bold;
   margin: 1rem 0rem;
   height:auto;
   width:auto;
-  padding:1rem 9rem;
+  padding:1rem 9em;
   align-items: center;
   font-weight:bold;
   white-space: nowrap;
@@ -222,9 +225,9 @@ font-weight: bold;
    margin-top: 2rem;
    margin-bottom: 1.5rem;
 }
-h2 .section-title .bot {
+/*h2 .section-title .bot {
     margin-bottom: 0;
-}
+}*/
 .site-descripts {
   font-size: .9rem;
   color: #7f7f7f;
@@ -234,11 +237,15 @@ h2 .section-title .bot {
   line-height: 1.5rem;
   font-family: 'Open Sans', sans-serif;
 }
+.portion1-button{
+  text-align: center;
+}
 /*Portion2 - column display*/
 
-.portion2-menu {
+div .portion2-aside {
   display: flex;
   flex-direction: column;
+  margin-top:2rem;
 }
 .portion2-menu-block {
   width: 26.437rem;
@@ -248,6 +255,7 @@ h2 .section-title .bot {
 }
 .menu-item-photo {
   width: 35%;
+  height:auto;
   margin-left: 1rem;
   margin-bottom: 1rem;
   margin-top: 2rem;
