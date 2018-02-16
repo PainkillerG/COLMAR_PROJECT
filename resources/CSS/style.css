@@ -496,10 +496,15 @@ background-color: #ffffff;
 .mediaNone {
   display: none;
 }
+.portion-lock.text-below.dismiss.mediaWide{
+  width:100vw;
+  margin-left: 1rem;
+  margin-right: 0;
+}
 .mediaWide {
   margin-left: 0;
   margin-right: 0;
-}
+  }
 .disclaimer {
   font-size: .8rem
 }
