@@ -98,8 +98,8 @@ span{
   width: 60%;
   display: inline;
 }
-.portion-image img {
-    width: 100%;
+.first-mosaic{
+    width: 60vw;
     height: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -148,50 +148,55 @@ span{
 @media only screen and (max-width:479px){
 .portion-mosaic {
   width:100vw;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .portion-image {
-  width: 60vw;
+  width: 100vw;
   height: auto;
   margin-left: 0;
   margin-right: 0;
 }
-.portion-image img {
-  width:60%;
+.first-mosaic {
+  width:100VW;
   height: 20.25rem;
-  width: auto;
-  margin-left: 0;
-  margin-right: 0;
+  margin:0 0;
+  padding:0 0;
+}
+div.portion1-text {
+  width:auto;
+  line-height: 3rem;
+  wrap:nowrap;
+  text-align: left;
+  margin-left:1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 .portion1-text h1{
 text-align: left;
 font-size: 2.5rem;
 font-weight: bold;
+margin-left:1rem;
+margin-top: 2rem;
+margin-bottom:2rem;
 }
 .portion1-text p{
   text-align: left;
   margin-left:0;
   font-weight: bold;
   font-size: 1.5rem;
-  line-height: 2rem;
+  margin-left:1rem;
 }
 .portion1-text .portion1-button {
-  margin: 1rem 0rem;
+  margin: 1.5rem 0rem;
   height:auto;
-  width:auto;
-  padding:1rem 9em;
-  align-items: center;
+  width:70vw;
+  padding:1rem 1rem;
   font-weight:bold;
   white-space: nowrap;
-  }
-  .portion1-text {
-    font-size:1.2rem;
-    margin-top:1.5rem;
-    margin-bottom:2rem;
-  }
+    }
 }
 /*Portion2*/
 
@@ -479,9 +484,11 @@ background-color: #ffffff;
 }
 }
 @media only screen and (max-width:479px) {
-  .portion-lock.text-below.dismiss {
+.portion-lock.text-below.dismiss {
   display: initial;
   width: 100vw;
+  margin-right:0;
+  padding-right: 0;
 }
 .portion-lock.text-below.dismiss h2, .portion-lock.text-below.dismiss p {
   display: none;
@@ -499,6 +506,7 @@ background-color: #ffffff;
 .social-media a{
   font-size: .8rem;
 }
+.
 }
 
 /*portion 4 */
