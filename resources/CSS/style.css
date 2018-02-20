@@ -1,10 +1,10 @@
 /* Main header Menu- Navigation bar */
 html {
   font-size: 16px;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 header {
-  width: 100%;
+  width: auto;
   height: 64px;
   background-color: white;
   display: flex;
@@ -308,7 +308,7 @@ img.menu-item-photo-desktop{
 }*/
 .portion2-menu-block.add-tops.gray.extends {
     width: 28.5rem;
-}
+  }
 .portion2-menu-block.add-tops.gray.media32{
   background-color: #dddddd;
   /*padding-left: 1rem;*/
@@ -390,7 +390,7 @@ a {
 .portion3 {
   background-color: #dddddd;
 }
-.portion3 h2 {
+.portion3  h2{
   text-align: center;
   font-weight:bold;
   padding-top: 2rem;
@@ -405,12 +405,16 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #eeeeee;
-  }
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right:2.5rem;
+  padding-left:2.5rem;
+    }
 .portion3-block {
-  width: 22.25rem;
+  width: 22.5rem;
   padding-right: 1rem;
   padding-left: 1rem;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .portion3-block img {
   height: 11.375rem;
@@ -593,10 +597,10 @@ h3, p {
   line-height: 1.8rem;
 }
 div.portion4-menu-block.add-tops.gray.media32{
-  width: 27.4rem;
+  width: 27.8rem;
   height: 12rem;
   display: flex;
-  padding-bottom: 1rem;
+  /*padding-bottom: 1rem;*/
   background-color: #dddddd;
 }
 @media only screen and (max-width:479px) {
@@ -613,7 +617,7 @@ div.portion4-menu-block.add-tops.gray.media32{
 /*Footer*/
 
 .copyright {
-  width: 100%;
+  width: 95%;
   height: 4rem;
   color: #7f7f7f;
   font-family: 'Roboto', sans-serif;
