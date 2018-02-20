@@ -397,6 +397,7 @@ a {
   padding-bottom: 2rem;
   padding-right:2.5rem;
   padding-left:2.5rem;
+  margin-bottom:0;
   background-color: #eeeeee;
 }
 .portion3-flexbox{
@@ -410,6 +411,7 @@ a {
   padding-right:2.5rem;
   padding-left:2.5rem;
     }
+
 .portion3-block {
   width: 22.5rem;
   padding-right: 1rem;
