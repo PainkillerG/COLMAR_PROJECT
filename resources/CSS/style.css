@@ -147,32 +147,31 @@ span{
 
 @media only screen and (max-width:479px){
 .portion-mosaic {
-  width:100vw;
+  width:100%;
   text-align: left;
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5rem;
 }
 .portion-image {
-  width: 100vw;
+  width: 100%;
   height: auto;
   margin-left: 0;
   margin-right: 0;
 }
 .first-mosaic {
-  width:100vw;
+  width:100%;
   height: 20.25rem;
   margin:0 0;
   padding:0 0;
 }
 div.portion1-text {
   width:auto;
-  line-height: 3rem;
   wrap:nowrap;
   text-align: left;
   margin-left:1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-top:1.5rem;
+  margin-bottom:2rem;
 }
 .portion1-text h1{
 text-align: left;
@@ -181,13 +180,15 @@ font-weight: bold;
 margin-left:1rem;
 margin-top: 2rem;
 margin-bottom:2rem;
+line-height: 3rem;
 }
 .portion1-text p{
   text-align: left;
   margin-left:0;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 1.5rem;
   margin-left:1rem;
+  line-height:2rem;
 }
 .portion1-text .portion1-button {
   margin: 1.5rem 0rem;
@@ -196,7 +197,9 @@ margin-bottom:2rem;
   padding:1rem 1rem;
   font-weight:bold;
   white-space: nowrap;
+  background-color: #A9A9A9;
     }
+
 }
 /*Portion2*/
 
@@ -331,17 +334,25 @@ img.menu-item-photo-desktop{
 .like-desktop {
   display: none;
 }
-.portion2-aside{
+.menu-item-photo-desktop {
+  display:none;
+}
+
+/*div.portion{
+  flex-direction: column;
+  flex-wrap: wrap;
+}*/
+/*.portion2-aside{
+  display:flex;
+  flex-direction: column;
     width: auto;
     height: auto;
     display: initial;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-}
-.menu-item-photo-desktop {
-  display:none;
-}
-.like-desktop.menu-heading{
+}*/
+
+.like-mobile.menu-heading{
   font-size: 1.5rem;
   color: #4F4F4F;
   padding: 1.5rem 1rem;
@@ -375,12 +386,14 @@ img.menu-item-photo-desktop{
 }
 .portion2-menu-block.add-tops.gray.media32{
   background-color: #ffffff;
-}
-/*.media32 {
+}.media32 {
   margin-bottom: 2rem;
-}*/
+}
 .portion2-menu-block.add-tops.gray.media32 {
   padding-bottom: 0;
+  }
+  .portion2-menu-block.add-tops.gray.media32 img {
+    width:360px;
   }
 }
 /* Portion 3 */
