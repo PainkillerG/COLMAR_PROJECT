@@ -357,25 +357,25 @@
 	}
 
 
-	.textbox {
+	.article {
 	  margin-right: 16px
 	}
 
 
-	.textbox p {
+	.article p {
 	  font-family: "Roboto Sans", sans-serif;
 	  margin-bottom: 1.25rem;
 	}
 
 
-	.textbox a {
+	.article a {
 	  font-family: "Roboto Sans", sans-serif;
 	  color: #000080;
 	  font-size: 1rem;
 	  text-decoration: none;
 	}
 
-	.textbox a:hover{
+	.article a:hover{
 		background-color: #000080;
 		color: white;
 		font-size: 1.3rem;
@@ -442,7 +442,7 @@
 	  }
 
 
-	  .textbox {
+	  .article {
 	    width: 90%;
 	    margin: 16px 16px 16px 32px;
 	  }
@@ -451,23 +451,23 @@
 	}
 
 
-	/*Courses*/
+	/*start-learning*/
 
 
-	.courses {
+	.start-learning {
 	  display: block;
 		background-color: #dddddd;
 	}
 
 
-	.courses h3 {
+	.start-learning h3 {
 	  width: 100%;
 	  text-align: center;
 	  padding-top: 32px;
 	}
 
 
-	.course-container {
+	.course-index {
 	  display: flex;
 	  flex-wrap: wrap;
 	  justify-content: center;
@@ -477,7 +477,7 @@
 	}
 
 
-	.course-holder {
+	.course-catalog {
 	  width: 260px;
 	  background-color: white;
 	  margin-right: 32px;
@@ -485,14 +485,14 @@
 	}
 
 
-	.course-holder img {
+	.course-catalog img {
 	  width: 100%;
 	  height: auto;
 	  margin-bottom: 16px;
 	}
 
 
-	.course-holder .textbox {
+	.course-catalog .article {
 	  width: 220px;
 	  height: 140px;
 	  display: flex;
@@ -501,7 +501,7 @@
 	}
 
 
-	.course-holder .textbox span {
+	.course-catalog .article span {
 	  font-family: "Roboto Sans", sans-serif;
 	  font-weight: 200;
 	  font-size: 0.9rem;
@@ -512,38 +512,38 @@
 	}
 
 
-	.courses-mobile {
+	.start-learning-mobile {
 	  display: none;
 	}
 
 
-	/*Courses @1024px*/
+	/*start-learning @1024px*/
 
 
 	@media only screen and (max-width: 1024px) {
-	  .courses {
+	  .start-learning {
 	    padding-left: 16px;
 	  }
 
 
-	  .course-container {
+	  .course-index {
 	    padding-left: 32px;
 	    padding-right: 32px;
 	  }
 
 
-	  .course-holder {
+	  .course-catalog {
 	    margin-left: 16px;
 	    margin-right: 16px;
 	  }
 	}
 
 
-	/*Courses - Mobile*/
+	/*start-learning - Mobile*/
 
 
 	@media only screen and (max-width: 768px) {
-	  section.courses {
+	  section.start-learning {
 	    display: flex;
 	    flex-direction: column;
 	    align-items: center;
@@ -552,17 +552,17 @@
 	  }
 
 
-	  .courses h3 {
+	  .start-learning h3 {
 	    padding-bottom: 32px;
 	  }
 
 
-	  .course-container {
+	  .course-index {
 	    display: none;
 	  }
 
 
-	  .courses-mobile {
+	  .start-learning-mobile {
 	    display: block;
 	    justify-content: center;
 	    width: 90%;
@@ -571,7 +571,7 @@
 			  }
 
 
-	  .courses-mobile h4 {
+	  .start-learning-mobile h4 {
 	    background-color: #dddddd;
 	    padding: 16px 0px 16px 16px;
 	    margin-bottom: 8px;
