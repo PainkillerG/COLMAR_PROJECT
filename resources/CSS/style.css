@@ -293,7 +293,7 @@
 
 	/*Campus Life Information*/
 
-.feature-content {
+.main-content {
 	  width: 60%;
 	  display: flex;
 	  flex-direction: column;
@@ -301,21 +301,21 @@
 	}
 
 
-	.feature-content img {
+	.main-content img {
 	  width: 100%;
 	  height: auto;
 	  margin-bottom: 32px
 	}
 
 
-	.feature-content h3 {
+	.main-content h3 {
 	  margin-bottom: 24px;
 		color: #696969;
 
 	}
 
 
-	.feature-content span {
+	.main-content span {
 	  font-family: 'Roboto Sans', sans-serif;
 	  font-size: 1rem;
 	  font-weight: 600;
@@ -326,7 +326,7 @@
 	}
 
 
-	.sidebar {
+	.aside {
 	  display: flex;
 	  flex-direction: column;
 	  border-left: 1px solid #696969;
@@ -334,25 +334,25 @@
 	  width: 40%;
 	}
 
-	.sidebar div:nth-child(3n) {
+	.aside div:nth-child(3n) {
 	  background-color: #dddddd;
 	}
 
 
-	.sidebar-block {
+	.aside-block {
 	  display: inline-flex;
 	  align-items: center;
 	  width: 100%;
 	}
 
 
-	.sidebar-block img {
+	.aside-block img {
 	  width: 35%;
 	  margin: 16px 16px 16px 16px;
 	}
 
 
-	.sidebar-mobile {
+	.aside-mobile {
 	  display: none;
 	}
 
@@ -392,7 +392,7 @@
 	  }
 
 
-	  .sidebar {
+	  .aside {
 	    width: 50%;
 	  }
 	}
@@ -407,35 +407,35 @@
 	  }
 
 
-	  .feature-content {
+	  .main-content {
 	    display: none;
 	  }
 
 
-	  .sidebar {
+	  .aside {
 	    display: none;
 	  }
 
 
-	  .sidebar.information {
+	  .aside.information {
 	    display: none;
 	  }
 
 
-	  .sidebar-mobile {
+	  .aside-mobile {
 	    display: flex;
 	    flex-direction: column;
 	  }
 
 
-	  .sidebar-block {
+	  .aside-block {
 	    display: flex;
 	    flex-direction: column;
 	    margin-bottom: 16px;
 	  }
 
 
-	  .sidebar-block img {
+	  .aside-block img {
 	    width: 90%;
 	    max-width: 480px;
 	    height: auto;
